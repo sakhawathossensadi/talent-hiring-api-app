@@ -4,8 +4,45 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccbd816a07b206f971042295b899d1ba",
+    "content-hash": "660005158c822a841804aa07bc08434f",
     "packages": [
+        {
+            "name": "analyzen/auth",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./../talent-hiring-packages/auth-api",
+                "reference": "ccafab00b932e8b0b266bd20c7ebb6070fa76a4d"
+            },
+            "type": "laravel-package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Analyzen\\Auth\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Analyzen\\Auth\\": "src/",
+                    "Analyzen\\Auth\\Database\\Factories\\": "database/factories/",
+                    "Analyzen\\Auth\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sakhawathossensadi",
+                    "email": "newtonss919@gmail.com"
+                }
+            ],
+            "description": "This is an auth package",
+            "transport-options": {
+                "relative": true
+            }
+        },
         {
             "name": "brick/math",
             "version": "0.10.2",
@@ -7643,7 +7680,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "analyzen/auth": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
