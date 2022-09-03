@@ -12,6 +12,10 @@
         {
             "type": "path",
             "url": "./../talent-hiring-packages/admin-api"
+        },
+        {
+            "type": "path",
+            "url": "./../talent-hiring-packages/candidate-api"
         }
     ],
     "require": {
@@ -21,7 +25,8 @@
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
         "analyzen/auth": "dev-master",
-        "analyzen/admin": "dev-master"
+        "analyzen/admin": "dev-master",
+        "analyzen/candidate": "dev-master"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

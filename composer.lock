@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "53b0b7cb5439f5101bf116c71b9190ed",
+    "content-hash": "5c09ba1a0f7e1ac0416bfeb68237f148",
     "packages": [
         {
             "name": "analyzen/admin",
@@ -100,6 +100,41 @@
                 }
             ],
             "description": "This is an auth package",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "analyzen/candidate",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./../talent-hiring-packages/candidate-api",
+                "reference": "0c8b0dadc28b98902440edf842a0c24f5367f9b5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Analyzen\\Candidate\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Analyzen\\Candidate\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sakhawathossensadi",
+                    "email": "newtonss919@gmail.com"
+                }
+            ],
+            "description": "This is candiadte package",
             "transport-options": {
                 "relative": true
             }
@@ -8884,7 +8919,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "analyzen/auth": 20,
-        "analyzen/admin": 20
+        "analyzen/admin": 20,
+        "analyzen/candidate": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
