@@ -110,7 +110,11 @@
             "dist": {
                 "type": "path",
                 "url": "./../talent-hiring-packages/candidate-api",
-                "reference": "0c8b0dadc28b98902440edf842a0c24f5367f9b5"
+                "reference": "354cd14c78c2d337b5e152b6e77b53225a684717"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0|^7.0",
+                "phpunit/phpunit": "^9.5@dev"
             },
             "type": "library",
             "extra": {
@@ -122,8 +126,29 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Analyzen\\Candidate\\": "src/"
+                    "Analyzen\\Candidate\\": "src/",
+                    "Analyzen\\Candidate\\Database\\Factories\\": "database/factories/",
+                    "Analyzen\\Candidate\\Database\\Seeders\\": "database/seeders/"
                 }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Analyzen\\Candidate\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "vendor/bin/phpunit"
+                ],
+                "test-f": [
+                    "vendor/bin/phpunit --filter"
+                ],
+                "test-w": [
+                    "vendor\\bin\\phpunit"
+                ],
+                "test-wf": [
+                    "vendor\\bin\\phpunit --filter"
+                ]
             },
             "license": [
                 "MIT"
