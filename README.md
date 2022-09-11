@@ -27,3 +27,11 @@ Then, go to talent-hiring-packages folder
     go to admin-api folder and run
 
         composer update
+
+    go to auth-api folder and run
+
+        composer update
+
+    go to candidate-api folder and run
+
+        composer update
