@@ -21,3 +21,9 @@ Run the following command to checkout and configure the branch for package devel
 Now, Install laravel passport
 
     php artisan passport:install
+
+Then, go to talent-hiring-packages folder
+
+    go to admin-api folder and run
+
+        composer update
