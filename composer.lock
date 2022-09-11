@@ -138,7 +138,7 @@
             "dist": {
                 "type": "path",
                 "url": "./../talent-hiring-packages/candidate-api",
-                "reference": "2aa11fae624863631cabb95674790a0f340cfc58"
+                "reference": "d6c27b7cde55558e3a0314f7f819e96138a5c4ab"
             },
             "require": {
                 "analyzen/auth": "dev-master"
