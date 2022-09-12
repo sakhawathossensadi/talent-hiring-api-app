@@ -8,10 +8,6 @@ Now, check & configure your `.env` file like DB_DATABASE, DB_USERNAME, DB_PASSWO
 
     set DB_DATABASE=talentdb
 
-Run the following command for migration
-
-    php artisan migrate
-
 Run the following command to generate APP_KEY
 
     php artisan key:generate
@@ -19,6 +15,10 @@ Run the following command to generate APP_KEY
 Run the following command to checkout and configure the branch for package development
 
     bash bin/dev.sh
+
+Run the following command for migration
+
+    php artisan migrate
 
 Now, Install laravel passport
 
