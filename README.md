@@ -38,6 +38,10 @@ Then, go to talent-hiring-packages folder
 
         composer update
 
+Command for run the project
+
+    php artisan serve
+
 For seeding data run the following command
 
     php artisan talent:seed-data
