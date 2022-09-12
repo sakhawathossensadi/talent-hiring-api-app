@@ -15,6 +15,7 @@ Run the following command to generate APP_KEY
 Run the following command to checkout and configure the branch for package development
 
     bash bin/dev.sh
+    composer update
 
 Run the following command for migration
 
