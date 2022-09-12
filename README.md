@@ -8,7 +8,9 @@ Now, check & configure your `.env` file like DB_DATABASE, DB_USERNAME, DB_PASSWO
 
     set DB_DATABASE=talentdb
 
-### Development
+Run the following command for migration
+
+    php artisan migrate
 
 Run the following command to generate APP_KEY
 
@@ -35,3 +37,7 @@ Then, go to talent-hiring-packages folder
     go to candidate-api folder and run
 
         composer update
+
+For seeding data run the following command
+
+    php artisan talent:seed-data
