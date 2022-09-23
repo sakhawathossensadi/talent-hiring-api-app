@@ -6,16 +6,16 @@
     "license": "MIT",
     "repositories": [
         {
-            "type": "path",
-            "url": "./../talent-hiring-packages/auth-api"
+            "type": "vcs",
+            "url": "https://github.com/sakhawathossensadi/auth-api.git"
         },
         {
-            "type": "path",
-            "url": "./../talent-hiring-packages/admin-api"
+            "type": "vcs",
+            "url": "https://github.com/sakhawathossensadi/admin-api.git"
         },
         {
-            "type": "path",
-            "url": "./../talent-hiring-packages/candidate-api"
+            "type": "vcs",
+            "url": "https://github.com/sakhawathossensadi/candidate-api.git"
         }
     ],
     "require": {
